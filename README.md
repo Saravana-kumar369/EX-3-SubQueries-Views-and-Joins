@@ -1,6 +1,4 @@
 # EX 3 SubQueries-Views-and-Joins 
-
-
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -196,3 +194,5 @@ select s.name,c.cust_name,c.city,s.commission from salesman1 as s right join cus
 ```
 ### OUTPUT: 
 ![Screenshot 2023-09-28 121851](https://github.com/Saravana-kumar369/EX-3-SubQueries-Views-and-Joins/assets/117925254/82e0e7a3-ea68-4b50-8bc5-5fbb346f576e)
+# RESULT:
+Thus, the queries using veiws and joins is executed successfully
